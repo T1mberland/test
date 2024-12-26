@@ -1,0 +1,15 @@
+{
+  "name": "ezformant",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "ezformant_bg.wasm",
+    "ezformant.js",
+    "ezformant.d.ts"
+  ],
+  "main": "ezformant.js",
+  "types": "ezformant.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
